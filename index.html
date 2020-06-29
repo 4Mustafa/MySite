@@ -1,0 +1,160 @@
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge"
+        style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Recent
+                Work</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+        <!-- Menu icon to open sidebar -->
+        <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+            onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+            <h1 class="w3-jumbo"><b class="redTag">Mustafa Ibrahim</b></h1>
+            <p>Programmer and Full stack
+            <p class="redTag">developer</p>
+            </p>
+            <img src="../MySite/img/IMG_6803.JPG" class="w3-image w3-hide-large w3-hide-small w3-round"
+                style="display:block;width:60%;margin:auto;">
+            <img src="../MySite/img/IMG_6803.JPG" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+                height="1333">
+
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="redTag">Recent Work</h2>
+            <hr class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <h3>Maximum1™ Life App</h3>
+                    <p> This Was a pro bono application that a small group of developers and i made for our client
+                        Maximum 1™. Users are able to fill out a form centered around a emotional or behavioral trigger
+                        called a "tree". This form hepls users overcome their triggers through a series of self guided
+                        self reflections</p>
+                    <img src="../MySite/img/Screen Shot 2020-06-28 at 9.38.53 PM.png" style="width:100%">
+                    <a href="https://secret-citadel-87407.herokuapp.com/#/home"> feel
+                        free to look at my app here
+                    </a> <br> <a href="https://github.com/MustafaIbrahim4/solo-project">View my code for this
+                        project on github
+                    </a>
+                </div>
+
+                <div class="w3-half">
+                    <h3>Smart Mark</h3>
+                    <p> In this application users are able to bookmark
+                        programing resources. Once bookmarked users cna later sarch for the resource they bookmarked by
+                        searching for the site name, the error code it refrences, the topic of the website or even any
+                        words found on the site.<br>
+
+                        <br>
+                    </p>
+                    <img src="../MySite/img/Screen Shot 2020-06-28 at 10.01.10 PM.png" style="width:100%">
+                    <a href="https://nameless-scrubland-45601.herokuapp.com/#/home"> feel
+                        free to look at my app here
+                    </a> <br> <a href="https://github.com/MustafaIbrahim4/Maximum-1-Project">View my code for this
+                        project on github
+                    </a>
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+            <h2 class="redTag">About Me</h2>
+            <hr class="w3-opacity">
+            <p>I am a Full Stack Software Developer that loves problem solving and assimilating to new
+                environments. My passions
+                include all things that can satisfy my curiosity,
+                give me a sense of accomplishment all while allowing me to feed into my creative nature.
+                <br>
+                <br>
+                As of 6/20/20, I am currently developing an application where users can record how
+                frequent they experience migranes, how servere these migranes are, and what the possible triggers could
+                be.<br> I plan to use Java on the backend of this applicaton, Java is a new framework that i am learning
+                so
+                im pretty exited to see how this app will turn out!
+            </p>
+            <h3 class="redTag" class="w3-padding-16">My Resume</h3>
+            <iframe src="https://drive.google.com/file/d/1mKVFkdXruTxCx2TE70lqnWNSCuYoQ034/preview" width="660"
+                height="500"></iframe>
+        </div>
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+            <h2 class="redTag">Contact Me</h2>
+            <hr class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Minneapolis-st. paul area</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: 4MustafaIbrahim@gmail.com</p>
+                <a href="https://github.com/MustafaIbrahim4"><i
+                        class="fa fa-github  fa-fw w3-xxlarge w3-margin-right"></i>MustafaIbrahim4</a>
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/mustafaibrahim4/"><i
+                        class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i>MustafaIbrahim4</a>
+            </div>
+
+
+
+            <!-- End Contact Section -->
+        </div>
+
+
+        <!-- Testimonials -->
+
+
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+    <script>
+        // Open and close sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
