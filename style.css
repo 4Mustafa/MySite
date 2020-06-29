@@ -4,7 +4,8 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    p{
         font-family: "Montserrat", sans-serif;
         color: white;
 
@@ -22,7 +23,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('/Users/mustafaibrahim/Desktop/developing/MySite/img/IMG_6803.JPG');
+            background-image:url("img/bg-masthead.jpg");
         min-height: 100%;
     }
 .redTag{
